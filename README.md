@@ -1,5 +1,5 @@
 # ![IMDb Rating Sharer Logo](/resources/icons/16.png) IMDb Rating Sharer
-
+![How it works](https://puu.sh/Gt2Hx/d92e06fc3e.gif)
 ## Description
 Google Chrome extension that provide you to share your rating to twitter and facebook.
 
