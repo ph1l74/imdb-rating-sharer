@@ -1,0 +1,42 @@
+.imdbrs-window {
+    background-color: #484A48;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    border-color: #AAA;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 13px;
+    white-space: nowrap;
+    position: absolute;
+    top: 0px;
+    right: 100%;
+    z-index: 10;
+    width: 310px;
+}
+
+.imdbrs-window>div {
+    display: inline-block;
+}
+
+.imdbrs-text {
+    margin-top: 6px;
+}
+
+.imdbrs-buttons-div {
+    float: right;
+}
+
+.imdbrs-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 4px;
+}
+
+.imdbrs-icon.imdbrs-icon-close {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    margin: 4px;
+    margin-right: 8px;
+}

@@ -1,1 +1,0 @@
-console.log('IMDb Rating Sharer loaded!');

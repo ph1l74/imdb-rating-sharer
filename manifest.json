@@ -1,5 +1,38 @@
 {
   "manifest_version": 2,
   "name": "IMDb Rating Sharer",
-  "version": "0.1"
+  "short_name": "IMDb RS",
+  "version": "0.1",
+  "icons": {
+    "16": "resources/icons/16.png",
+    "48": "resources/icons/48.png",
+    "64": "resources/icons/64.png",
+    "128": "resources/icons/128.png"
+  },
+  "author": "ph1l74 (Filat Astakhov)",
+  "options_ui": {
+    "open_in_tab": true,
+    "page": "layouts/options.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://imdb.com/*",
+        "*://www.imdb.com/*",
+        "*://*.imdb.com/*"
+      ],
+      "js": [
+        "scripts/core.js"
+      ],
+      "css": [
+        "styles/main.css"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "scripts/socials.js",
+    "resources/fb.svg",
+    "resources/tw.svg",
+    "resources/close.svg"
+  ]
 }
