@@ -64,8 +64,8 @@ const createTwitterLink = () => {
 
 const createFacebookLink = () => {
     const link = document.createElement('a');
-    link.dataset.url = 'http://www.facebook.com/dialog/feed?';
-    link.dataset.url += `app_id=368372737881382&display=popup&quote=I%20rated%20${getMovieInfo()}%20${getRating()}/10&link=${window.location.href}&redirect_uri=${window.location.href}`;
+    link.href = 'http://www.facebook.com/dialog/feed?';
+    link.href += `app_id=368372737881382&display=popup&quote=I%20rated%20${getMovieInfo()}%20${getRating()}/10&link=${window.location.href}&redirect_uri=${window.location.href}`;
     link.target = "_blank";
     return link;
 }

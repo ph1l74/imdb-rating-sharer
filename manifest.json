@@ -3,6 +3,7 @@
   "name": "IMDb Rating Sharer",
   "short_name": "IMDb RS",
   "version": "0.1",
+  "description": "Google Chrome extension that provide you to share your rating to twitter and facebook.",
   "icons": {
     "16": "resources/icons/16.png",
     "48": "resources/icons/48.png",
@@ -10,10 +11,6 @@
     "128": "resources/icons/128.png"
   },
   "author": "ph1l74 (Filat Astakhov)",
-  "options_ui": {
-    "open_in_tab": true,
-    "page": "layouts/options.html"
-  },
   "content_scripts": [
     {
       "matches": [
